@@ -1,0 +1,42 @@
+/* Cache le contenu par défaut */
+.tab-content {
+    display: none;
+    animation: fadeIn 0.4s ease-in-out; /* Petite animation d'apparition */
+}
+
+/* Affiche UNIQUEMENT si la classe .active est là */
+.tab-content.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(5px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Style de la scrollbar pour Webkit (Chrome, Safari, Edge) */
+.custom-scrollbar::-webkit-scrollbar {
+    height: 6px;               /* Hauteur de la barre horizontale */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1;       /* Couleur du fond du rail */
+    border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #d1d5db;       /* Couleur de la barre (gris clair) */
+    border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #9ca3af;       /* Couleur au survol (gris plus foncé) */
+}
+
+/* Pour Firefox */
+.custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #d1d5db #f1f1f1;
+}
+
+

@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Click - Bien-être féminin</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script src="tailwind.config.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="font-sans text-gray-800 bg-white">
+     <header class="relative h-[400px] md:max-h-[90vh] md:h-[650px] flex items-center justify-center">
+        <img 
+        src="./assets/bandeau.jpg"
+        alt="Femmes heureuses"
+        class="absolute w-full h-full object-cover object-[center_10%]"
+        >
+
+        <div class="relative z-20 px-6 text-center text-white max-w-3xl mx-auto">
+            <h1 class="font-thai font-bold text-[30px] md:text-[44px] mb-8">
+                Letting Your True Beauty Shine
+            </h1>
+            
+            <a href="https://www.instagram.com/the_cliick/" target="_blank" class="inline-block bg-dark-100 border border-white text-white font-semibold py-3 px-8 uppercase text-sm transition duration-300">
+                Rejoindre la communauté
+            </a>
+        </div>
+    </header>
+
+    <section class="py-12 px-8 py-6 md:py-20 md:px-14 flex justify-center">
+        <div class="bg-dark-100 text-white text-center md:py-16 py-4 px-4 max-w-7xl w-full">
+            <h2 class="text-base md:text-2xl font-semibold mb-6">
+                La première application qui aide les jeunes femmes à s'épanouir mentalement !
+            </h2>
+
+            <p class="text-sm md:text-base opacity-90 leading-relaxed">
+                The Click est une communauté dédiée au bien-être mental des jeunes femmes. 
+                Avec des ateliers de méditation, de développement personnel et des discussions bienveillantes, 
+                l’application aide chacune à gagner en confiance, à se sentir sereine dans un espace sûr pour échanger et s’épanouir au quotidien.
+            </p>
+        </div>
+    </section>
+
+    <section class="bg-light-200 pt-8 md:pt-16 pb-32 px-4 md:px-8">
+        
+        <div class="text-center mb-12">
+            <h2 class="text-2xl md:text-[44px] font-bold mb-6 md:mb-14 text-gray-200">Les essentiels du bien-être féminin :</h2>
+            
+            <div class="flex flex-wrap justify-center gap-x-8 gap-y-10 md:gap-[87px]">
+                <div class="flex flex-col items-center group w-20 md:w-auto">
+                    <div class="w-20 h-20 rounded-full bg-light-300 flex items-center justify-center mb-3 shadow-sm transform group-hover:-translate-y-2 transition duration-300">
+                        <img src="./assets/icons/serenite.png" alt="Icône Sérénité" class="w-10 h-10 object-contain opacity-80">
+                    </div>
+                    <span class="text-sm text-gray-100 font-medium">Sérénité</span>
+                </div>
+
+                <div class="flex flex-col items-center group w-20 md:w-auto">
+                    <div class="w-20 h-20 rounded-full bg-light-300 flex items-center justify-center mb-3 shadow-sm transform group-hover:-translate-y-2 transition duration-300">
+                        <img src="./assets/icons/epanouissement.png" alt="Icône Épanouissement" class="w-10 h-10 object-contain opacity-80">
+                    </div>
+                    <span class="text-sm text-gray-100 font-medium">Épanouissement</span>
+                </div>
+
+                <div class="flex flex-col items-center group w-20 md:w-auto">
+                    <div class="w-20 h-20 rounded-full bg-light-300 flex items-center justify-center mb-3 shadow-sm transform group-hover:-translate-y-2 transition duration-300">
+                         <img src="./assets/icons/confiance.png" alt="Icône Confiance" class="w-10 h-10 object-contain opacity-80">
+                    </div>
+                    <span class="text-sm text-gray-100 font-medium">Confiance</span>
+                </div>
+
+                <div class="flex flex-col items-center group w-20 md:w-auto">
+                    <div class="w-20 h-20 rounded-full bg-light-300 flex items-center justify-center mb-3 shadow-sm transform group-hover:-translate-y-2 transition duration-300">
+                        <img src="./assets/icons/equilibre.png" alt="Icône Équilibre" class="w-10 h-10 object-contain opacity-80">
+                    </div>
+                    <span class="text-sm text-gray-100 font-medium">Équilibre</span>
+                </div>
+
+                <div class="flex flex-col items-center group w-20 md:w-auto">
+                    <div class="w-20 h-20 rounded-full bg-light-300 flex items-center justify-center mb-3 shadow-sm transform group-hover:-translate-y-2 transition duration-300">
+                        <img src="./assets/icons/detente.png" alt="Icône Détente" class="w-10 h-10 object-contain opacity-80">
+                    </div>
+                    <span class="text-sm text-gray-100 font-medium">Détente</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="max-w-6xl mx-auto bg-white">
+            <div class="grid grid-cols-1 md:grid-cols-12 items-center">
+                <div class="md:col-span-3 flex flex-row md:flex-col gap-3 p-4 md:py-20 md:pl-0 overflow-x-auto pb-4 custom-scrollbar">
+                    <button class="tab-btn w-full flex items-center gap-4 rounded-l-none rounded-r-[20px] transition-all duration-300 bg-dark-100 text-white shadow-md transform scale-105 origin-left" data-target="confiance">
+                        <div class="w-12 h-12 rounded-l-none rounded-r-[20px] flex items-center justify-center bg-dark-200 text-white">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                        </div>
+                        <span class="font-bold text-sm text-left">Confiance en soi</span>
+                    </button>
+
+                    <button class="tab-btn w-full flex items-center gap-4 rounded-l-none rounded-r-[20px] transition-all duration-300 bg-light-100 text-gray-700 hover:bg-pink-100" data-target="estime">
+                        <div class="w-12 h-12 rounded-l-none rounded-r-[20px] flex items-center justify-center bg-light-50 text-white">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                        </div>
+                        <span class="font-bold text-sm text-left">Estime personnelle</span>
+                    </button>
+
+                    <button class="tab-btn w-full flex items-center gap-4 rounded-l-none rounded-r-[20px] transition-all duration-300 bg-light-100 text-gray-700 hover:bg-pink-100" data-target="stress">
+                        <div class="w-12 h-12 rounded-l-none rounded-r-[20px] flex items-center justify-center bg-light-50 text-white">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                        </div>
+                        <span class="font-bold text-sm text-left">Gestion du stress</span>
+                    </button>
+
+                    <button class="tab-btn w-full flex items-center gap-4 rounded-l-none rounded-r-[20px] transition-all duration-300 bg-light-100 text-gray-700 hover:bg-pink-100" data-target="objectifs">
+                        <div class="w-12 h-12 rounded-l-none rounded-r-[20px] flex items-center justify-center bg-light-50 text-white">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                        </div>
+                        <span class="font-bold text-sm text-left">Objectifs de vie</span>
+                    </button>
+           
+                    <button class="tab-btn w-full flex items-center gap-4 rounded-l-none rounded-r-[20px] transition-all duration-300 bg-light-100 text-gray-700 hover:bg-pink-100" data-target="emotions">
+                        <div class="w-12 h-12 rounded-l-none rounded-r-[20px] flex items-center justify-center bg-light-50 text-white">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                        </div>
+                        <span class="font-bold text-sm text-left">Gestion des émotions</span>
+                    </button>
+
+                </div>
+
+                <div class="md:col-span-4 flex justify-center p-6">
+                    <img id="dynamic-image" 
+                        src="./assets/confiance.png" 
+                        alt="Activité" 
+                        class="w-64 h-64 md:w-80 md:h-80 object-contain transition-opacity duration-300">
+                </div>
+
+               
+                <div class="md:col-span-5 p-6 md:pr-10">
+            
+                    <div id="confiance" class="tab-content active">
+                        <h3 class="text-3xl font-thai font-bold mb-2">Confiance en soi</h3>
+                        <span class="text-dark-100 font-bold text-lg block mb-6">10€ - 20€</span>
+                        <p class="text-gray-600 text-sm mb-8 leading-relaxed">
+                            Un atelier dédié à la confiance en soi, où chaque femme peut partager ses expériences, 
+                            ses visions et ses blocages sans jugement. Ensemble, on échange des tips simples et concrets pour mieux s’affirmer, 
+                            renforcer son estime personnelle et dépasser ses pensées limitantes. Cet atelier apporte un vrai boost de motivation,
+                             une meilleure connaissance de soi et un sentiment de légitimité plus fort.
+                        </p>
+                        <button type="button" class="open-modal-btn inline-block border border-dark-100 text-dark-100 px-6 py-3 uppercase tracking-wider text-xs font-bold hover:bg-dark-100 hover:text-white transition duration-300">
+                            Je suis intéressé
+                        </button>
+                    </div>
+
+                    <div id="estime" class="tab-content">
+                        <h3 class="text-3xl font-thai font-bold mb-2">Estime personnelle</h3>
+                        <span class="text-dark-100 font-bold text-lg block mb-6">10€ - 25€</span>
+                        <p class="text-gray-600 text-sm mb-8 leading-relaxed">
+                            Un atelier centré sur l’estime personnelle, pour aider chaque femme à mieux reconnaître sa valeur et à renouer avec une
+                             image positive d’elle-même. On échange librement sur nos façons de nous percevoir, nos doutes, nos forces, et on partage 
+                             des tips pour cultiver une estime plus stable et bienveillante. Cet atelier permet de se sentir plus alignée, plus sereine 
+                             et plus en paix avec soi-même au quotidien.</p>
+                        <button type="button" class="open-modal-btn inline-block border border-dark-100 text-dark-100 px-6 py-3 uppercase tracking-wider text-xs font-bold hover:bg-dark-100 hover:text-white transition duration-300">
+                            Je suis intéressé
+                        </button>
+                    </div>
+            
+                    <div id="stress" class="tab-content">
+                        <h3 class="text-3xl font-thai font-bold mb-2">Gestion du stress</h3>
+                        <span class="text-dark-100 font-bold text-lg block mb-6">20€</span>
+                        <p class="text-gray-600 text-sm mb-8 leading-relaxed">
+                            Un atelier pensé pour aider les femmes à mieux comprendre leurs sources de stress et à retrouver un sentiment d'apaisement. 
+                            On explore ensemble nos réactions, on partage nos expériences et on découvre des techniques simples pour relâcher 
+                            la pression au quotidien. Cet atelier permet de repartir plus légère, avec des outils concrets pour calmer l’esprit 
+                            et retrouver un meilleur équilibre émotionnel.
+                        </p>
+                        <button type="button" class="open-modal-btn inline-block border border-dark-100 text-dark-100 px-6 py-3 uppercase tracking-wider text-xs font-bold hover:bg-dark-100 hover:text-white transition duration-300">
+                            Je suis intéressé
+                        </button>
+                    </div>
+
+                    <div id="objectifs" class="tab-content">
+                        <h3 class="text-3xl font-thai font-bold mb-2">Objectifs de vie</h3>
+                        <span class="text-dark-100 font-bold text-lg block mb-6">30€</span>
+                        <p class="text-gray-600 text-sm mb-8 leading-relaxed">
+                            Un atelier qui aide chaque femme à mettre de la clarté dans ses envies, ses ambitions et la direction qu’elle souhaite donner à sa vie. 
+                            Ensemble, on discute de nos visions, on échange des conseils pratiques et on découvre des méthodes simples pour développer un 
+                            état d’esprit motivant et aligné. On en ressort avec des idées plus structurées, une nouvelle dynamique et une motivation solide 
+                            pour avancer vers ses objectifs avec confiance.
+                        </p>
+                        <button type="button" class="open-modal-btn inline-block border border-dark-100 text-dark-100 px-6 py-3 uppercase tracking-wider text-xs font-bold hover:bg-dark-100 hover:text-white transition duration-300">
+                            Je suis intéressé
+                        </button>
+                    </div>
+
+                    <div id="emotions" class="tab-content">
+                        <h3 class="text-3xl font-thai font-bold mb-2">Gestion des émotions</h3>
+                        <span class="text-dark-100 font-bold text-lg block mb-6">25€</span>
+                        <p class="text-gray-600 text-sm mb-8 leading-relaxed">
+                            Un atelier conçu pour mieux comprendre et apprivoiser ses émotions au quotidien. 
+                            On partage nos expériences, on échange des astuces pour exprimer ce que l’on ressent et on découvre des
+                             techniques simples pour rester sereine face aux situations difficiles. On repart avec plus de calme intérieur, 
+                             une meilleure maîtrise de ses réactions et une approche plus douce et positive de ses émotions.
+                        </p>
+                        <button type="button" class="open-modal-btn inline-block border border-dark-100 text-dark-100 px-6 py-3 uppercase tracking-wider text-xs font-bold hover:bg-dark-100 hover:text-white transition duration-300">
+                            Je suis intéressé
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-6 md:py-16 px-6 bg-white">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-[70px] text-center items-start">
+            
+            <div>
+                <span class="block text-6xl font-bold text-dark-100 mb-4">50%</span>
+                <p class="text-gray-500 text-xl">
+                    des adolescentes déclarent avoir vécu un épisode de détresse psychique
+                </p>
+            </div>
+
+            <div>
+                <span class="block text-6xl font-bold text-dark-100 mb-4">60%</span>
+                <p class="text-gray-500 text-xl">
+                    des jeunes femmes renoncent à leurs aspirations par manque de confiance
+                </p>
+            </div>
+
+            <div>
+                <span class="block text-6xl font-bold text-dark-100 mb-4">+80%</span>
+                <p class="text-gray-500 text-xl">
+                    des utilisatrices disent se sentir plus confiantes après avoir participé à des ateliers de bien-être mental
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-6 md:py-16 px-6 bg-white"> 
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 min-h-[638px] shadow-2xl">
+    
+            <div class="bg-dark-100 text-white p-6 md:p-10 md:p-12 flex flex-col">
+                <h2 class="text-xl text-center md:text-[27px] font-semibold font-thai mb-10">
+                    Rejoignez la communauté et commencez votre parcours bien-être dès aujourd'hui !
+                </h2>
+                <p class="mb-12 text-sm md:text-[22px] font-thai text-center md:text-left leading-relaxed">
+                    Maintenant, vous n'êtes plus jamais seule. Rejoignez un espace bienveillant où des jeunes femmes comme vous partagent leurs expériences, s'inspirent mutuellement et se soutiennent au quotidien.
+                    <br>
+                    Célébrez vos réussites et découvrez des ressources pour vous épanouir mentalement. Ici, chaque voix compte, chaque histoire inspire, et chaque membre grandit avec les autres.
+                </p>
+                <div class="text-center md:text-left">
+                    <a href="https://www.instagram.com/the_cliick/" target="_blank" class="inline-block border border-white mx-auto text-white font-extrabold py-2 px-4 text-base hover:bg-white hover:text-dark-100 transition duration-300">
+                        Rejoindre la communauté
+                    </a>
+                </div>
+            </div>
+
+            <div class="relative h-64 md:h-auto">
+                <img src="./assets/rejoindre_commu.png" 
+                    alt="Groupe de femmes" 
+                    class="absolute w-full h-full object-cover">
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-dark-100 py-20 px-4 md:px-8">
+        
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold text-white font-thai">Moments bien-être</h2>
+        </div>
+
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+            
+            <div class="bg-white shadow-lg group hover:-translate-y-2 transition-transform duration-300 flex flex-col h-auto md:h-[500px]">
+                
+                <div class="h-[294px] overflow-hidden relative shrink-0">
+                    <img src="./assets/moment1.png" alt="Gestion des émotions" 
+                        class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                    
+                    <div class="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
+                        <button type="button" class="open-modal-btn border border-white text-white py-2 px-6 font-semibold uppercase tracking-wide text-sm hover:bg-white hover:text-dark-100 transition-colors">
+                            Je suis intéressé
+                        </button>
+
+                    </div>
+                </div>
+                            
+                <div class="p-6 md:p-8 flex-1 flex flex-col justify-center text-center md:text-left">
+                    <h3 class="text-xl font-bold text-dark-100 mb-3 leading-tight font-thai">
+                        Gestion des émotions & rapport apaisé au corps
+                    </h3>
+                    <p class="text-[10px] text-gray-500 uppercase tracking-widest mb-4 font-bold">
+                        Émotion <span class="mx-1">|</span> Sophie Stone <span class="mx-1">|</span> Lundi 5 Janvier
+                    </p>
+                    <p class="text-sm text-gray-600 leading-relaxed font-medium">
+                        Écoute, Compréhension, Détente, Confiance, Bienveillance, Apaisement
+                    </p>
+                    <button type="button" class="open-modal md:hidden mt-6 inline-block border border-dark-100 text-dark-100 py-3 px-8 font-semibold uppercase tracking-wide text-xs hover:bg-dark-100 hover:text-white transition-colors">
+                        Je suis intéressé
+                    </button>
+                </div>
+            </div>
+
+            <div class="bg-white shadow-lg group hover:-translate-y-2 transition-transform duration-300 flex flex-col h-auto md:h-[500px]">
+                <div class="h-[294px] overflow-hidden relative shrink-0">
+                    <img src="./assets/moment2.png" alt="Mindset positif" 
+                         class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
+                        <button type="button" class="open-modal-btn border border-white text-white py-2 px-6 font-semibold uppercase tracking-wide text-sm hover:bg-white hover:text-dark-100 transition-colors">
+                            Je suis intéressé
+                        </button>
+                    </div>
+                </div>
+                <div class="p-6 md:p-8 flex-1 flex flex-col justify-center text-center md:text-left">
+                    <h3 class="text-xl font-bold text-dark-100 mb-3 leading-tight font-thai">
+                        Mindset positif et gestion du stress
+                    </h3>
+                    <p class="text-[10px] text-gray-500 uppercase tracking-widest mb-4 font-bold">
+                        Mindset <span class="mx-1">|</span> Dr. Wade Warren <span class="mx-1">|</span> Lundi 12 Janvier
+                    </p>
+                    <p class="text-sm text-gray-600 leading-relaxed font-medium">
+                        Motivation, Entraide, Partage, Contrôle, Énergie, Clarté, Sérénité, Équilibre
+                    </p>
+                    <button type="button" class="open-modal-btn md:hidden mt-6 inline-block border border-dark-100 text-dark-100 py-3 px-8 font-semibold uppercase tracking-wide text-xs hover:bg-dark-100 hover:text-white transition-colors">
+                        Je suis intéressé
+                    </button>
+                </div>
+            </div>
+
+            <div class="bg-white shadow-lg group hover:-translate-y-2 transition-transform duration-300 flex flex-col h-auto md:h-[500px]">
+                <div class="h-[294px] overflow-hidden relative shrink-0">
+                    <img src="./assets/moment3.png" alt="Déconnexion" 
+                         class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                    <div class="hidden md:flex absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
+                        <button type="button" class="open-modal-btn border border-white text-white py-2 px-6 font-semibold uppercase tracking-wide text-sm hover:bg-white hover:text-dark-100 transition-colors">
+                            Je suis intéressé
+                        </button>
+                    </div>
+                </div>
+                <div class="p-6 md:p-8 flex-1 flex flex-col justify-center text-center md:text-left">
+                    <h3 class="text-xl font-bold text-dark-100 mb-3 leading-tight font-thai">
+                        Déconnexion & gestion de la charge mentale
+                    </h3>
+                    <p class="text-[10px] text-gray-500 uppercase tracking-widest mb-4 font-bold">
+                        Gestion <span class="mx-1">|</span> Lauren Walter <span class="mx-1">|</span> Mardi 3 Février
+                    </p>
+                    <p class="text-sm text-gray-600 leading-relaxed font-medium">
+                        Lâcher-Prise, Réalisation, Libération, Compréhension, Calme Intérieur
+                    </p>
+                    <button type="button" class="open-modal-btn md:hidden mt-6 inline-block border border-dark-100 text-dark-100 py-3 px-8 font-semibold uppercase tracking-wide text-xs hover:bg-dark-100 hover:text-white transition-colors">
+                        Je suis intéressé
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="text-gray-800">
+
+        <div class="bg-pink-50 py-16 px-6 md:px-12">
+            
+            <div class="max-w-4xl mx-auto text-center mb-12">
+                <h3 class="text-xl md:text-3xl font-bold text-dark-100 mb-6 font-thai">
+                    Envie de rejoindre la communauté ?
+                </h3>
+                <p class="text-sm md:text-base text-gray-700 leading-relaxed">
+                    En attendant la sortie de l'application TheClick, inscrivez-vous à notre newsletter<br class="hidden md:block"> 
+                    ou suivez-nous sur les réseaux sociaux pour ne rien manquer !
+                </p>
+            </div>
+
+            <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20">
+                
+                <div class="flex gap-4">
+                    <a href="https://www.instagram.com/the_cliick/" class="bg-dark-100 text-white w-12 h-12 rounded-full flex items-center justify-center hover:scale-110 transition duration-300 shadow-sm">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M7.75 2A5.75 5.75 0 0 0 2 7.75v8.5A5.75 5.75 0 0 0 7.75 22h8.5A5.75 5.75 0 0 0 22 16.25v-8.5A5.75 5.75 0 0 0 16.25 2h-8.5Zm0 1.5h8.5A4.25 4.25 0 0 1 20.5 7.75v8.5A4.25 4.25 0 0 1 16.25 20.5h-8.5A4.25 4.25 0 0 1 3.5 16.25v-8.5A4.25 4.25 0 0 1 7.75 3.5Zm8 2a1 1 0 1 0 0 2 1 1 0 0 0 0-2ZM12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm0 1.5a3.5 3.5 0 1 1 0 7 3.5 3.5 0 0 1 0-7Z"/>
+                        </svg>
+                    </a>
+
+                    <a href="https://www.tiktok.com/@the_cliick?_r=1&_t=ZN-926YCLeAUGk" class="bg-dark-100 text-white w-12 h-12 rounded-full flex items-center justify-center hover:scale-110 transition duration-300 shadow-sm">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/></svg>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/the-click-3627833a0/" class="bg-dark-100 text-white w-12 h-12 rounded-full flex items-center justify-center hover:scale-110 transition duration-300 shadow-sm">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                    </a>
+                </div>
+
+                
+
+                <div class="w-full max-w-md">
+                    <form id="newsletter-form" method="POST" action="https://a90f9427.sibforms.com/serve/MUIFAPYWIaIdZpJ43FdkoyxiBX9R_pS0GFPa4x9EqEw23NAqfn4F9O20WVkQCfsxoIpo-1wfzbTHnHVW8KUfxzm0vWHu_joFAqyJf-ln3Kl7EHJ-FGCiyAKBX8UYxnQVXJ9FThOFTr70BUbGoa0etaS8bYraYqjT3qmPnaAGkFmTIV1F8IOAzA_twWmE7MufR7FOjywtf2Nq0ykLYg==">
+                        <input type="text" name="email_address_check" value="" style="display:none">
+                        <input type="hidden" name="locale" value="fr">
+                        <input type="hidden" name="html_type" value="simple">
+                        
+                        <div class="flex items-end border-b border-dark-100 pb-2 justify-between">
+                            <input type="email" id="newsletter-email" name="EMAIL" placeholder="Email" class="bg-transparent w-full text-dark-100 placeholder-dark-100/60 focus:outline-none px-2" required>
+                            <button type="submit" id="newsletter-btn" disabled class="border border-dark-100 text-dark-100 px-4 py-1 text-xs font-medium hover:bg-dark-100 hover:text-white transition whitespace-nowrap opacity-50 cursor-not-allowed">
+                                Inscription
+                            </button>
+                        </div>
+                        
+                        <div class="flex items-start gap-3 mt-4">
+                            <div class="relative flex items-center">
+                                <input type="checkbox" id="newsletter-consent" class="peer h-4 w-4 cursor-pointer appearance-none border border-black checked:bg-dark-100 checked:border-dark-100 transition-all">
+                                <svg class="absolute w-3 h-3 text-white pointer-events-none opacity-0 peer-checked:opacity-100 top-0.5 left-0.5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            </div>
+                            
+                            <label for="newsletter-consent" class="text-[10px] text-gray-600 leading-tight">
+                                En soumettant votre adresse e-mail, vous acceptez de recevoir des e-mails publicitaires de la part de Glam. Veuillez consulter notre politique de confidentialité, qui comprend notre avis relatif aux incitations financières.
+                            </label>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="bg-dark-100 text-white py-4 md:py-6 px-6 md:px-12 text-xs md:text-sm font-light">
+            <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+                
+                <div class="flex flex-col md:flex-row items-center gap-4 md:gap-8 opacity-90">
+                    <div class="flex items-center gap-2">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                        <span>Paris, Nation</span>
+                    </div>
+                    <span class="hidden md:inline text-white/50">|</span>
+                    <div class="flex items-center gap-2">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                        <span>07 64 68 96 86</span>
+                    </div>
+                </div>
+                
+                <div class="flex flex-col md:flex-row items-center gap-4 md:gap-8 opacity-80 text-center md:text-right">
+                    <span>&copy; 2024 Glam. All Rights Reserved.</span>
+                    <a id="open-legal-modal" class="hover:text-white hover:underline transition cursor-pointer">Mentions Légales</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="bg-dark-300 text-white py-4 md:py-6 w-full"></div>
+
+    </footer>
+
+    <!-- popup confirmation inscription -->
+    <div id="success-popup" class="hidden fixed inset-0 bg-black/60 z-50 flex items-center justify-center backdrop-blur-sm transition-opacity duration-300">
+        <div class="bg-white p-8 md:p-12 rounded-lg shadow-2xl max-w-md text-center transform scale-100 transition-transform duration-300 relative mx-4">
+            
+            <button id="close-popup" class="absolute top-4 right-4 text-gray-400 hover:text-dark-100 transition">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+            </button>
+
+            <div class="w-16 h-16 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+            </div>
+
+            <h3 class="text-2xl font-bold text-dark-100 mb-2 font-thai">Merci !</h3>
+            <p class="text-gray-600 mb-6">Votre inscription à la newsletter a bien été prise en compte.</p>
+
+            <button id="btn-close-popup" class="bg-dark-100 text-white px-6 py-2 uppercase text-xs font-bold hover:bg-black transition duration-300">
+                Fermer
+            </button>
+        </div>
+    </div>
+
+    <!-- popup confirmation ateliers -->
+
+    <div id="interest-modal" class="hidden fixed inset-0 bg-black/60 z-50 flex items-center justify-center backdrop-blur-sm p-4 transition-opacity duration-300">
+    
+        <div class="bg-dark-100 w-full max-w-3xl rounded-[30px] border border-white border-4 shadow-2xl relative flex flex-col md:flex-row gap-6 md:gap-8 p-6 md:p-14 overflow-hidden">
+            
+            <button id="close-interest-modal" class="absolute top-4 right-4 text-white/50 hover:text-white transition z-20">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+
+            <div class="w-full md:w-1/2 flex flex-col justify-center text-white z-10">
+                
+                <h2 class="text-2xl md:text-3xl font-bold mb-4 font-thai leading-9 tracking-widest">
+                    Intéressée par un <br> de nos ateliers ?
+                </h2>
+                
+                <p class="text-xs md:text-sm leading-relaxed mb-6 text-white/90 font-medium">
+                    En attendant la sortie de l’application, rejoins notre communauté : inscris-toi à la newsletter pour recevoir toutes les infos en avant-première, 
+                    et suis-nous sur Instagram pour être au courant de nos ateliers, de nos actualités et de toutes les nouveautés à venir.
+                </p>
+
+                <p class="block font-bold mb-2 text-xs tracking-wide">Rejoins la communauté !</p>
+
+                <form id="interest-form" method="POST" action="https://a90f9427.sibforms.com/serve/MUIFAHs4hdrhUTRbx_ywpwc1Ie1u4EJomnkUfODqFQO0EGaT8w4I_suR3_8Dp2RH9P0hkbMkQMCP1hnxV2MxYvWQlk6-om-Yx6WBJtAb1NJ6u373sASHHRNrTb6i6-XbYmdwbBUjKuN335h9fi-50BQ0JD9_Gi5L2Iagi26hLV0ZOdOEjAnL2d1K-jQZekXUEmQGTi53L3axaTnc6w==">
+                    <input type="text" name="email_address_check" value="" style="display:none">
+                    <input type="hidden" name="locale" value="fr">
+                    <input type="hidden" name="html_type" value="simple">
+
+                    <div class="relative">
+                        <input type="email" id="interest-email" name="EMAIL" required placeholder="E-mail" 
+                            class="w-full bg-white/10 border border-white/20 px-3 py-3 text-sm text-white placeholder-white/50 focus:outline-none focus:bg-white/20 transition">
+                        <button type="submit" id="interest-submit-btn" class="mt-4 w-full bg-white text-dark-100 font-bold py-3 rounded text-xs uppercase tracking-wider hover:bg-gray-100 transition shadow-lg">
+                            Valider
+                        </button>                   
+                    </div>
+                </form>
+                
+                <div id="interest-success-msg" class="hidden mt-4 bg-white/20 p-3 rounded text-center backdrop-blur-sm">
+                    <div class="text-white font-bold text-sm mb-1">C'est noté !</div>
+                </div>
+            </div>
+
+            <div class="w-full md:w-1/2 relative h-48 md:h-auto">
+                <img src="./assets/atelier_popup.png" 
+                    alt="Atelier The Click" 
+                    class="w-full h-full object-cover rounded-[15px] shadow-lg">
+            </div>
+
+        </div>
+    </div>
+
+
+        <!-- popup mentions légales -->
+
+    <div id="legal-modal" class="hidden fixed inset-0 bg-black/60 z-[60] flex items-center justify-center backdrop-blur-sm p-4 transition-opacity duration-300">
+    
+        <div class="bg-white w-full max-w-4xl rounded-2xl shadow-2xl relative flex flex-col max-h-[90vh]">
+            
+            <div class="p-6 border-b border-gray-100 flex justify-between items-center bg-white rounded-t-2xl sticky top-0 z-10">
+                <h2 class="text-2xl font-bold text-dark-100 font-thai">Mentions Légales</h2>
+                <button id="close-legal-modal" class="text-gray-400 hover:text-dark-100 transition p-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+
+            <div class="p-8 overflow-y-auto text-sm md:text-base leading-relaxed text-gray-700 space-y-8">
+                
+                <section>
+                    <h3 class="font-bold text-dark-100 text-lg mb-2">1. Éditeur du site</h3>
+                    <p>
+                        Le site internet <strong>The Click</strong> est édité par :<br>
+                        <strong>Nom :</strong> [TON NOM / SOCIÉTÉ]<br>
+                        <strong>Adresse :</strong> [TON ADRESSE]<br>
+                        <strong>Contact :</strong> [TON EMAIL]<br>
+                        <strong>SIRET :</strong> [TON SIRET]
+                    </p>
+                </section>
+
+                <section>
+                    <h3 class="font-bold text-dark-100 text-lg mb-2">2. Hébergement</h3>
+                    <p>
+                        Le site est hébergé par :<br>
+                        <strong>Nom :</strong> [NOM HÉBERGEUR]<br>
+                        <strong>Adresse :</strong> [ADRESSE HÉBERGEUR]
+                    </p>
+                </section>
+
+                <section>
+                    <h3 class="font-bold text-dark-100 text-lg mb-2">3. Propriété intellectuelle</h3>
+                    <p>
+                        L’ensemble de ce site relève de la législation française et internationale sur le droit d’auteur et la propriété intellectuelle. Tous les droits de reproduction sont réservés. La reproduction de tout ou partie de ce site est formellement interdite sauf autorisation expresse.
+                    </p>
+                </section>
+
+                <section>
+                    <h3 class="font-bold text-dark-100 text-lg mb-2">4. Données personnelles</h3>
+                    <p>
+                        Les informations recueillies via les formulaires (email) sont enregistrées dans un fichier informatisé par The Click pour l'envoi de newsletters. Elles sont conservées jusqu'à désinscription et sont destinées à The Click. Conformément à la loi « informatique et libertés », vous pouvez exercer votre droit d'accès aux données vous concernant et les faire rectifier en nous contactant.
+                    </p>
+                </section>
+
+            </div>
+            
+            <div class="p-4 border-t border-gray-100 bg-gray-50 rounded-b-2xl text-center">
+                <button id="btn-close-legal" class="bg-dark-100 text-white px-6 py-2 rounded text-xs uppercase font-bold hover:bg-black transition">
+                    Fermer
+                </button>
+            </div>
+
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
