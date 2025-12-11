@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const styles = {
         btn: {
             active: ['bg-dark-100', 'text-white', 'shadow-md', 'transform', 'scale-105', 'origin-left'],
-            inactive: ['bg-light-100', 'hover:bg-pink-100']
+            inactive: ['bg-light-300', 'hover:bg-pink-100']
         },
         icon: {
             active: ['bg-dark-200', 'text-white'],
